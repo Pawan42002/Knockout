@@ -1,0 +1,35 @@
+.pos {
+	position: fixed;
+    bottom: 0;
+    top: 93vh;
+}
+
+@media (max-width: 763px) {
+	.pos {
+		top: 91vh;
+	}
+}
+
+.copyright {
+	padding: 10px 0;
+}
+.copyright span,
+.copyright a {
+	color: #878787;
+	-webkit-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.copyright a:hover {
+	color: #007bff;
+}
+
+.copyright-menu ul {
+	text-align: right;
+	margin: 0;
+}
+
+.copyright-menu li {
+	display: inline-block;
+	padding-left: 20px;
+}

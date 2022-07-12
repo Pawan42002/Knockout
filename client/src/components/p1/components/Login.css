@@ -1,0 +1,70 @@
+.customBg {
+	height: 60vh;
+	min-height: 87vh;
+	overflow-y:auto;
+	background-color: #f5f5f5;
+}
+
+#lineor{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+}
+.lines{
+    width: 100%;
+    border-bottom: 1px solid grey;
+    position: relative;
+    bottom: 10px;
+    right: 3px;
+}
+
+.form-container {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #000;
+	margin-top: 3rem;
+	padding: 0;
+	border-radius: 0.3rem;
+}
+
+#forms {
+	padding: 20px;
+    padding-bottom: 10px;
+}
+
+.container-fluid1 {
+	position: absolute;
+	top: 20%;
+}
+#text {
+	text-align: center;
+}
+
+@media (min-width: 320px) {
+	.text-responsive {
+		font-size: 1.1rem;
+	}
+}
+
+@media (min-width: 544px) {
+	.text-responsive {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.text-responsive {
+		font-size: 1.6rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.text-responsive {
+		font-size: 1.7rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.text-responsive {
+		font-size: 1.8rem;
+	}
+}

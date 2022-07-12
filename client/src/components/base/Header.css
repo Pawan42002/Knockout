@@ -1,0 +1,64 @@
+:root{
+    --blue: #3b5998;
+}
+span:nth-child(2){
+    color: var(--blue);
+}
+.navbar{
+    padding-left: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+#lineor{
+    display: flex;
+}
+
+@media (min-width: 320px) {  
+  .text-responsive {font-size:1.1rem;}
+}
+
+@media (min-width: 544px) {  
+  .text-responsive {font-size:1.1rem;} 
+}
+ 
+@media (min-width: 768px) {  
+  .text-responsive {font-size:1.2rem;}
+}
+ 
+@media (min-width: 992px) { 
+  .text-responsive {font-size:1.3rem;}
+}
+ 
+@media (min-width: 1200px) {  
+  .text-responsive {font-size:1.4rem;}
+}
+
+@media (min-width: 320px) {  
+  .timer-responsive {font-size:1rem;}
+}
+
+@media (min-width: 544px) {  
+  .timer-responsive {font-size:1.1rem;} 
+}
+ 
+@media (min-width: 768px) {  
+  .timer-responsive {font-size:1.2rem;}
+}
+ 
+@media (min-width: 992px) { 
+  .timer-responsive {font-size:1.3rem;}
+}
+ 
+@media (min-width: 1200px) {  
+  .timer-responsive {font-size:1.4rem;}
+}
+
+.headerLogo{
+    text-decoration: none;
+    color: inherit;
+}
+
+.headerLogo:hover{
+    color: rgb(68, 68, 68) !important;
+    opacity: 0.8;
+}
